@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default () =>{
-return 'X' // Where the X piece goes
+    return <h1 class="h1">X</h1>
 }
