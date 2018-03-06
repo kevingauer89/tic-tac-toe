@@ -1,0 +1,39 @@
+.grid {
+  display: flex;
+  height: 900px;
+  width: 900px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cell {
+  border: 0.1px solid black;
+  height: 299px;
+  width: 299px;
+}
+.top-left {
+  border-left: 0;
+  border-top: 0;
+}
+.top
+{
+  border-top: 0;
+}
+.top-right
+{
+  border-top: 0;
+  border-right: 0;
+}
+.bottom-left {
+  border-bottom: 0;
+  border-left: 0;
+}
+.bottom-right {
+  border-right: 0;
+  border-bottom: 0;
+}
+.right {
+  border-right: 0;
+}
+.bottom {
+  border-bottom: 0;
+}
